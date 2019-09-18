@@ -7,7 +7,8 @@ defmodule PelemaySample.MixProject do
       version: "0.1.0",
       elixir: "~> 1.9",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+      package: package(),
     ]
   end
 
@@ -21,7 +22,7 @@ defmodule PelemaySample.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:pelemay, "~> 0.0.1"}
+      {:pelemay, "~> 0.0.1"},
 
       # Benchmark dependencies
       {:benchfella, "~> 0.3.5"},
