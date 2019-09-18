@@ -8,7 +8,7 @@ defmodule PelemaySample.MixProject do
       elixir: "~> 1.9",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
-      package: package(),
+      package: package()
     ]
   end
 
@@ -26,7 +26,7 @@ defmodule PelemaySample.MixProject do
 
       # Benchmark dependencies
       {:benchfella, "~> 0.3.5"},
-      {:flow, "~> 0.14.3"},
+      {:flow, "~> 0.14.3"}
     ]
   end
 
