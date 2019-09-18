@@ -3,7 +3,8 @@
 
 ## Logistic_map
 
-If you know benchmarks, run the `mix bench`
+If you get benchmarks, run the `mix bench`.
+
 
 
 
