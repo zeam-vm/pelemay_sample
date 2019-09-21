@@ -5,16 +5,16 @@ defmodule LogisticMapBench do
 
   bench "Enum" do
     @list_0x1000
-    |> Sample.enum_logistic_map
+    |> PelemaySample.enum_logistic_map
   end
 
   bench "Flow" do
     @list_0x1000
-    |> Sample.flow_logistic_map
+    |> PelemaySample.flow_logistic_map
   end
 
   bench "Accelerated" do
     @list_0x1000
-    |> Sample.logistic_map
+    |> PelemaySample.logistic_map
   end
 end
