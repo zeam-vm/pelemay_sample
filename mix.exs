@@ -22,7 +22,7 @@ defmodule PelemaySample.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:pelemay, "~> 0.0.2"},
+      {:pelemay, "~> 0.0.4"},
 
       # Benchmark dependencies
       {:benchfella, "~> 0.3.5"},
