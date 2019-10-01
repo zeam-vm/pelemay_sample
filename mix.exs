@@ -23,7 +23,7 @@ defmodule PelemaySample.MixProject do
   defp deps do
     [
       {:pelemay, "~> 0.0.4"},
-      
+
       # Benchmark dependencies
       {:benchfella, "~> 0.3.5"},
       {:flow, "~> 0.14.3"}
