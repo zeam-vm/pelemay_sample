@@ -22,10 +22,11 @@ defmodule PelemaySample.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:pelemay, "~> 0.0.4"},
+      {:pelemay, "~> 0.0.5"},
 
       # Benchmark dependencies
-      {:benchfella, "~> 0.3.5"},
+      # {:benchfella, "~> 0.3.5"},
+      {:benchfella, path: "../benchfella"},
       {:flow, "~> 0.14.3"}
     ]
   end

@@ -2,5 +2,5 @@
   "benchfella": {:hex, :benchfella, "0.3.5", "b2122c234117b3f91ed7b43b6e915e19e1ab216971154acd0a80ce0e9b8c05f5", [:mix], [], "hexpm"},
   "flow": {:hex, :flow, "0.14.3", "0d92991fe53035894d24aa8dec10dcfccf0ae00c4ed436ace3efa9813a646902", [:mix], [{:gen_stage, "~> 0.14.0", [hex: :gen_stage, repo: "hexpm", optional: false]}], "hexpm"},
   "gen_stage": {:hex, :gen_stage, "0.14.2", "6a2a578a510c5bfca8a45e6b27552f613b41cf584b58210f017088d3d17d0b14", [:mix], [], "hexpm"},
-  "pelemay": {:hex, :pelemay, "0.0.4", "61b1db01acdfc27c8207fb139790c93206bed805978392428b8c70e09c357bb2", [:mix], [], "hexpm"},
+  "pelemay": {:hex, :pelemay, "0.0.5", "921eea11da60d556a9ed732b9c759bdcdeec3f578425ad1bae53dcbab1426e93", [:mix], [], "hexpm"},
 }
