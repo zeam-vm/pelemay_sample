@@ -22,7 +22,7 @@ defmodule PelemaySample do
   defpelemay do
     def string_replace(list) do
       list
-      |> Enum.map(& String.replace(&1, "Fizz", "Buzz"))
+      |> Enum.map(&String.replace(&1, "Fizz", "Buzz"))
     end
 
     def list_minus_2(list) do
@@ -70,7 +70,7 @@ defmodule PelemaySample do
 
   def enum_string_replace(list) do
     list
-    |> Enum.map(& String.replace(&1, "Fizz", "Buzz"))
+    |> Enum.map(&String.replace(&1, "Fizz", "Buzz"))
   end
 
   def enum_logistic_map(list) do
@@ -90,7 +90,7 @@ defmodule PelemaySample do
   def flow_string_replace(list) do
     list
     |> Flow.from_enumerable()
-    |> Flow.map(& String.replace(&1, "Fizz", "Buzz"))
+    |> Flow.map(&String.replace(&1, "Fizz", "Buzz"))
     |> Enum.sort()
   end
 
