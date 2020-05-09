@@ -1,6 +1,8 @@
 %{
   "benchfella": {:hex, :benchfella, "0.3.5", "b2122c234117b3f91ed7b43b6e915e19e1ab216971154acd0a80ce0e9b8c05f5", [:mix], [], "hexpm", "23f27cbc482cbac03fc8926441eb60a5e111759c17642bac005c3225f5eb809d"},
+  "cpu_info": {:hex, :cpu_info, "0.2.1", "4a167c8880eac7cd8020fb9f34aaf1dbf17dd2a93a93b9f773d54cbbf14f402f", [:mix], [], "hexpm", "368aa547a02e5beb7dff621705e9045b8a421545bead9a9139ec0b8817f0cf6a"},
   "flow": {:hex, :flow, "1.0.0", "3df0b6687ba01dae248c615d50e1f8b36631e3eb9b9a663adf38262035d9fc08", [:mix], [{:gen_stage, "~> 1.0", [hex: :gen_stage, repo: "hexpm", optional: false]}], "hexpm", "103e0d30539db120a432d6433123a6ed885b10bde244e9f4194e3beee080ac29"},
   "gen_stage": {:hex, :gen_stage, "1.0.0", "51c8ae56ff54f9a2a604ca583798c210ad245f415115453b773b621c49776df5", [:mix], [], "hexpm", "1d9fc978db5305ac54e6f5fec7adf80cd893b1000cf78271564c516aa2af7706"},
-  "pelemay": {:hex, :pelemay, "0.0.6", "0833bf5661cd7b75299d14f318f9e5a2586e9a3e32d4abd23727504300c89220", [:mix], [], "hexpm", "4ac428a558aadc6d6794c0d189095e9a31f726d7d74c2a84e07efa50c0fe6db1"},
+  "pelemay": {:hex, :pelemay, "0.0.11", "f0a718e1c504e6f86c33ab8c9f82141ab3d0c86c960b2ad75b4cf434dc5abf75", [:mix], [{:cpu_info, "~> 0.2.1", [hex: :cpu_info, repo: "hexpm", optional: false]}, {:ring_logger, "~> 0.6", [hex: :ring_logger, repo: "hexpm", optional: false]}], "hexpm", "3d0f8c2175660759c88f1b90a82d3571607d6818392677bb69aff3e2d2027473"},
+  "ring_logger": {:hex, :ring_logger, "0.8.0", "b1baddc269099b2afe2ea3a87b8e2b71e57331c0000038ae55090068aac679db", [:mix], [], "hexpm", "9b2f482e4346c13c11ef555f898202d0ddbfda6e2354e5c6e0559d2b4e0cf781"},
 }
