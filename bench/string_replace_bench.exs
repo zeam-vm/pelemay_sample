@@ -10,6 +10,11 @@ defmodule StringReplaceBench do
   """
   ]
 
+  setup_all do
+    PelemaySample.string_replace(@list)
+    {:ok, nil}
+  end
+
   bench "Enum String.replace" do
     @list
     |> PelemaySample.enum_string_replace
