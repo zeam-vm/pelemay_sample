@@ -1,6 +1,5 @@
 defmodule PelemaySample do
   import Pelemay
-  require Pelemay
 
   @moduledoc """
   ```elixir
@@ -25,6 +24,11 @@ defmodule PelemaySample do
       |> Enum.map(&String.replace(&1, "Fizz", "Buzz"))
     end
 
+    def float_mult(list) do
+      list
+      |> Enum.map(& &1 * 2)
+    end
+
     def logistic_map(list) do
       list
       |> Enum.map(&rem(22 * &1 * (&1 + 1), 6_700_417))
@@ -45,6 +49,11 @@ defmodule PelemaySample do
     |> Enum.map(&String.replace(&1, "Fizz", "Buzz"))
   end
 
+  def enum_float_mult(list) do
+    list
+    |> Enum.map(& &1 * 2)
+  end
+
   def enum_logistic_map(list) do
     list
     |> Enum.map(&rem(22 * &1 * (&1 + 1), 6_700_417))
@@ -63,6 +72,13 @@ defmodule PelemaySample do
     list
     |> Flow.from_enumerable()
     |> Flow.map(&String.replace(&1, "Fizz", "Buzz"))
+    |> Enum.sort()
+  end
+
+  def flow_float_mult(list) do
+    list
+    |> Flow.from_enumerable()
+    |> Flow.map(& &1 * 2)
     |> Enum.sort()
   end
 
